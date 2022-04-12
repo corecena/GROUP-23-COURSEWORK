@@ -1,0 +1,48 @@
+
+.cardContainer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: aliceblue;
+}
+
+.news-item {
+    
+    max-width: 31vw;
+    padding: 10px;
+    border: 1px solid rgb(252, 239, 239) ;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    background-color: aliceblue;
+
+    
+}
+
+.news-img{
+width:100%;
+
+border-radius: 15px;
+height: 350px;
+
+
+    
+}
+.desc{
+    font-size:25px;
+    
+}
+.href{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+@media (max-width:894px) {
+    .news-item{
+        max-width: 45vw;
+    }
+
+    
+}
